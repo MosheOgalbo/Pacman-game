@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(3, 10, 6);
+  color: white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+
+.ghosts-display {
+  display: block;
+}
+
+.modal-popup {
+  display: none;
+}
+
+.modal-content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000px;
+  width: 80%;
+  max-width: 50%;
+  background: rgb(235, 9, 20);
+  padding: 100px;
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px #aaa;
+}
+
+img {
+  width: 50%;
+  height:50%;
+}
+.up {
+  transform: rotate(-0.25turn)
+}
+
+.down {
+  transform: rotate(90deg)
+}
+
+.left {
+  transform: scaleX(-1)
+}
